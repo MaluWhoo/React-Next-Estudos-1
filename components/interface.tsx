@@ -22,10 +22,13 @@ export function Menu() {
     )
 }
 
-export function Cabecalho() {
+export function Cabecalho( props: any ) {
     return (
         <div className="bg-pink-100">
             <h1>Logo</h1>
+            <p>{props.titulo}</p>
+            <p>{props.subtitulo}</p>
+            <p>{props.preco}</p>
             {/* {Menu()} */}
             {/* <p>Acomodações | Experiências</p> */}
         </div>
