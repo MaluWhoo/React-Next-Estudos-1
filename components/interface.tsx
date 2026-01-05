@@ -26,7 +26,7 @@ export function Cabecalho() {
     return (
         <div className="bg-pink-100">
             <h1>Logo</h1>
-            {Menu()}
+            {/* {Menu()} */}
             {/* <p>Acomodações | Experiências</p> */}
         </div>
     )
