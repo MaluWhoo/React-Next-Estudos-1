@@ -23,13 +23,7 @@ import { Acomodacao, Cabecalho, Conteudo, Menu, Rodape } from "@/components/inte
 export default function Page() {
     return (
         <div>
-            {/* {Cabecalho()}
-            <hr />
-            {Acomodacao()}
-            <hr /> */} 
-
-            <Cabecalho titulo="AirBnb" subtitulo="Início"/>
-            <hr />
+            <Cabecalho titulo="AirBnb" subtitulo="Início" className="bg-pink-100"/>
 
             <Menu />
 

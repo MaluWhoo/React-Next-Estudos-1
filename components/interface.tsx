@@ -37,8 +37,10 @@ export function MenuItem( props:any ) {
 }
 
 export function Cabecalho( props: any ) {
+    const classe = props.className ?? ""
     return (
-        <div className="bg-pink-100">
+        // Passando classe como prop
+        <div className={"p-2 " + classe}>
             <h1>Logo</h1>
             <p>{props.titulo}</p>
             <p>{props.subtitulo}</p>
