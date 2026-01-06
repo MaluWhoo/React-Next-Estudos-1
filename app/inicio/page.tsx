@@ -18,15 +18,28 @@
 //     )
 // }
 
-import { Acomodacao, Cabecalho, Menu } from "@/components/interface"
+import { Acomodacao, Cabecalho, Conteudo, Menu, Rodape } from "@/components/interface"
 
 export default function Page() {
     return (
         <div>
-            {Cabecalho()}
+            {/* {Cabecalho()}
             <hr />
             {Acomodacao()}
+            <hr /> */} 
+
+            <Cabecalho titulo="AirBnb" subtitulo="Início"/>
             <hr />
+
+            <Menu />
+
+            {/* <Conteudo titulo="Página início" subtitulo="Conteúdo da página inicial" /> */}
+            <Conteudo>
+                <h1>Página Início</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat facilis aperiam rerum iste error rem pariatur distinctio ut porro modi, tempora, sapiente cupiditate omnis, a deserunt quas provident iure.</p>
+            </Conteudo>
+            <hr />
+            <Rodape />
         </div>
     )
 }
